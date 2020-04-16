@@ -45,8 +45,7 @@
 
 .nav__bar {
     width: 100%;
-    background-color: black;
-        
+    background-color: black;      
 }
 
 .nav-menu {
@@ -65,3 +64,19 @@
     color: white;
 }
 
+.container {
+    width: 82%;
+    margin: 5em auto;    
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article__box {
+    border-bottom: 1px solid black;
+    display: flex;
+
+}
