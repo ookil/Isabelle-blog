@@ -46,7 +46,8 @@
 .nav__bar {
     width: 100%;
     background-color: black; 
-         
+    position: sticky;
+    top: 0;
 }
 
 .nav-menu {
@@ -68,6 +69,7 @@
 
 .nav-menu a:hover {
     background-color: white;
+    
     color: black;  
 
 }
