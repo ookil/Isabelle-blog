@@ -135,12 +135,14 @@
 .related {
     width: 100%;   
     background-color: rgba(248, 225, 186, 1);
+    text-align: center;
 }
 
 .related__container {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 .related h4 {
@@ -150,37 +152,62 @@
     font-family: 'PT Serif Caption', serif;
 }
 
-
-.related__content {
+.related__container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-   
-}
-
-.related__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    padding: 1.5em;
 }
 
 .related-image {
     width: 40%;
-    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    
 }
 
 .related img {
-    width: 100%;
-    max-height: 25em;
-    object-fit: cover;
-    object-position: 50% 20%;
+    width: 100%;    
+    box-shadow: 3px 3px 15px;
 }
 
-.related__box h5 {
+.related h5 {
     font-family: 'PT Serif Caption', serif;
-    font-size: 1.2rem;
-    padding: 0;
-    margin: 0;
+    font-size: 1em;
+    padding-top: .5em;
+}
 
+
+/* FOOTER */
+
+.footer__box {
+    width: 100%;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 50px;    
+    padding: 15px 0;
+}
+
+.footer__content {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contact-logo {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.contacts img {
+    width: 100%;
+}
+
+.contacts p {
+    font-family: 'PT Sans', sans-serif;
 }
