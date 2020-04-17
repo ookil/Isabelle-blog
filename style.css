@@ -112,7 +112,8 @@
     flex-wrap: wrap;
 }
 
-.article-description h4 {
+.article-description h4, .article-description a {
+    color: black;
     margin-top: .5em;
     padding-bottom: .2em;
     font-size: 1.5rem;
@@ -169,10 +170,11 @@
 
 .related img {
     width: 100%;    
-    box-shadow: 3px 3px 15px;
+    box-shadow: 3px 3px 15px black;
 }
 
-.related h5 {
+.related h5, .related a {
+    color: black;
     font-family: 'PT Serif Caption', serif;
     font-size: 1em;
     padding-top: .5em;
